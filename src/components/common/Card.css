@@ -1,0 +1,27 @@
+.card.active,
+.card:hover {
+  border-color: var(--themeMainColor);
+}
+.card:hover .user-icon,
+.user-icon.active {
+  color: var(--themeMainColor);
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 575px) {
+  .card-column:not(:first-child) {
+    padding-right: 0px;
+  }
+
+  .card-column:not(:last-child) {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 575px) {
+  .card-column {
+    padding: 0 !important;
+  }
+}

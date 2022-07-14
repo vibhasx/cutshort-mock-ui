@@ -1,0 +1,44 @@
+.field {
+  margin-bottom: 25px;
+}
+.field-label {
+  display: block;
+  color: #424d63;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.field-input-text {
+  border-color: var(--borderColor);
+  border-radius: 5px;
+  border-style: solid;
+  padding: 10px;
+}
+
+.field-input-text::placeholder {
+  color: #cccccc;
+}
+
+.field-label-span {
+  color: #c0c9db;
+}
+
+.field-inset-label,
+.field-input-text-with-inset {
+  border-color: var(--borderColor);
+  border-radius: 5px;
+  border-style: solid;
+  padding: 10px;
+}
+
+.field-inset-label {
+  display: inline;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.field-input-text-with-inset {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 0;
+}

@@ -1,0 +1,27 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-container {
+  background-color: #ffffff;
+}
+
+.App-logo {
+  width: auto;
+}
+
+.App .icon {
+  color: #ffffff;
+  background-color: var(--themeMainColor);
+  padding: 15px;
+  border-radius: 50%;
+}
+
+@media (max-width: 575px) {
+  .App {
+    height: -1vh;
+  }
+}

@@ -1,0 +1,72 @@
+{
+    "WelcomeForm": {
+        "Headings": {
+            "Main": "Welcome! First thing first...",
+            "Sub": "You can always change them later."
+        },
+        "FormInputs": [
+            {
+                "id": "firstName",
+                "label": "Full Name",
+                "placeholder": "Steve Jobs"
+            },
+            {
+                "id": "displayName",
+                "label": "Display Name",
+                "placeholder": "Steve"
+            }
+        ],
+        "ButtonText": "Create Workspace"
+    },
+    "WorkspaceForm": {
+        "Headings": {
+            "Main": "Let's set up a home for all your work",
+            "Sub": "You can always create another workspace later"
+        },
+        "FormInputs": [
+            {
+                "id": "workspaceName",
+                "label": "Workspace Name",
+                "placeholder": "Eden"
+            },
+            {
+                "id": "workspaceUrl",
+                "label": "Workspace URL",
+                "isOptional": true,
+                "placeholder": "Example",
+                "insetLabel": "www.eden.com/"
+            }
+        ],
+        "ButtonText": "Create Workspace"
+    },
+    "PlanningForm": {
+        "Headings": {
+            "Main": "How are you planning to use Eden?",
+            "Sub": "We'll streamline your setup experience accordingly."
+        },
+        "FormInputs": [
+            {
+                "id": "forMyself",
+                "heading": "For myself",
+                "subHeading": "Write better. Think more clearly. Stay organized.",
+                "icon": "User",
+                "isActive": true
+            },
+            {
+                "id": "withMyTeam",
+                "heading": "With my team",
+                "subHeading": "Wiki, docs, tasks & projects, all in one place.",
+                "icon": "Users",
+                "isActive": false
+            }
+        ],
+        "ButtonText": "Create Workspace"
+    },
+    "FinalForm": {
+        "Headings": {
+            "Main": "Congratulations, Eren!",
+            "Sub": "You have completed onboarding, yoc can start using the Eden!"
+        },
+        "ButtonText": "Launch Eden"
+    }
+}
